@@ -1,0 +1,106 @@
+
+:root {
+    --border-radius: 5px;
+    --border-width: 1px;
+    --light-grey: #2e2c2c;
+    --blue: #000000;
+    --orange: #ffc877;
+    --red: #c14444;
+}
+html {
+    height: 100%;
+  }
+body{
+    background-image: url("https://wallpaperaccess.com/thumb/1390896.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  /* Full height */
+  /* height: 100%; */
+
+  /* Center and scale the image nicely */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+#calculator {
+    width: 28%;
+    height: 80%;
+    min-width: 300px;
+    min-height: 400px;
+    background-color: var(--light-grey);
+    margin: auto;
+    margin-top: 80px;
+    border: 4px solid #aca6a6;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#calculator h1 {
+    background-image: linear-gradient(90deg,#663f3f,#a14949);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px;
+}
+
+#display-container {
+    font-size: 2.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: var(--blue);
+    width: 100%;
+    height: 20%;
+    min-height: 100px;
+    border-radius: var(--border-radius);
+    background-color: rgb(221, 215, 215);
+    margin-bottom: 10px;
+}
+
+#display-container p {
+    margin: 0.5rem;
+    vertical-align: text-bottom;
+}
+
+#buttons-container {
+    width: 100%;
+    height: 60%;
+    min-height: 300px;
+    border: var(--border-width) solid var(--light-grey);
+    border-radius: var(--border-radius);
+    background-color: var(--light-grey);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.button {
+    width: 22.5%;
+    height: 18%;
+    min-height: 60px;
+    border-radius: 30px;
+    margin: 3px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--border-width) solid var(--light-grey);
+    background-color: rgb(233, 227, 227);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.button:hover {
+    background-color: var(--orange);
+}
+
+.red {
+    background-color: var(--red);
+    color: white;
+}
+
+#button-zero {
+    width: 49%;
+}
+
