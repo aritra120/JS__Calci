@@ -1,0 +1,23 @@
+@media screen and (max-width:550px) {
+
+    #calculator h1 {
+    padding:0;
+    }
+    #calculator {
+        margin-top: 40%;
+        height: 80% !important;
+    }
+    #buttons-container {
+        min-height: 0;
+        height: 48%;
+    }
+    .button {
+        font-size: 1.8rem;
+        min-height: 40px;
+        width: 22%;
+        margin: 1% 0;
+    }
+    #display-container {
+        min-height: 80px;
+    }
+}
